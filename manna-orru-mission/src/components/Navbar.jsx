@@ -48,7 +48,7 @@ export default function Navbar(){
             </button>
             <div className={`absolute right-0 mt-2 bg-white text-gray-800 rounded shadow-md transition-all transform origin-top ${solutionsOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'}`}>
               {['Vision','Mission','Objectives','Partners','Impact','Map','Challenges'].map((s,i)=>(
-                <a key={i} className="block px-4 py-2 hover:bg-gray-100" href={`#${s.toLowerCase()}`}>{s}</a>
+                <a key={s.toLowerCase()} className="block px-4 py-2 hover:bg-gray-100" href={`#${s.toLowerCase()}`}>{s}</a>
               ))}
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function Navbar(){
           <a className="block py-2" href="#home">Home</a>
           <a className="block py-2" href="#about">About</a>
           {['Vision','Mission','Objectives','Partners','Impact','Map','Challenges'].map((s,i)=>(
-            <a key={i} className="block py-2" href={`#${s.toLowerCase()}`}>{s}</a>
+            <a key={s.toLowerCase()} className="block py-2" href={`#${s.toLowerCase()}`}>{s}</a>
           ))}
           <a className="block py-2" href="#footer">Contact</a>
         </div>

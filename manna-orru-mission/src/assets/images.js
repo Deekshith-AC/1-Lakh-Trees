@@ -18,27 +18,20 @@ const IMAGES = {
   ],
   // Carousel images (pinned locally for reliability)
   carousel: [
-    '/images/carousel-1.jpg',
-    '/images/carousel-2.jpg',
-    '/images/carousel-3.jpg',
-    '/images/carousel-4.jpg',
-    '/images/carousel-5.jpg',
-    '/images/carousel-6.jpg',
-    '/images/carousel-7.jpg',
-    '/images/carousel-8.jpg',
-    '/images/carousel-9.jpg',
-    '/images/carousel-10.jpg',
-    '/images/carousel-11.jpg',
-    '/images/carousel-12.jpg'
+    'https://cdn.pixabay.com/photo/2021/07/11/18/31/seedling-6404598_1280.jpg',
+    'https://cdn.pixabay.com/photo/2022/06/07/05/10/gardening-7247509_1280.jpg',
+    'https://cdn.pixabay.com/photo/2024/04/05/05/17/child-8676542_1280.jpg',
+    'https://cdn.pixabay.com/photo/2024/04/05/05/17/child-8676531_1280.jpg',
+    'https://cdn.pixabay.com/photo/2024/05/14/23/35/seed-8762302_1280.jpg',
+    'https://cdn.pixabay.com/photo/2017/04/18/21/15/seedling-2240442_1280.jpg'
   ],
   partnersLogos: Array.from({length:12}).map((_,i)=>`/images/logo-${i+1}.svg`),
-  gallery: Array.from({length:20}).map((_,i)=>`/images/gallery-${i+1}.jpg`)
-  ,
+  gallery: Array.from({length:20}).map((_,i)=>`/images/gallery-${i+1}.jpg`),
   // user-specified home image (pinned locally)
   homeExtra: '/images/homeExtra.jpg',
   // Optional leaf animation asset (place a GIF/SVG/Lottie JSON in public/images and reference here)
   // Example: '/images/leaf-anim.gif'
-  ,leafAnim: '/images/leaf-anim.svg'
+  leafAnim: '/images/leaf-anim.svg'  
 }
 
 export default IMAGES

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="lg6" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e6ffd9" />
+      <stop offset="100%" stop-color="#3fb23a" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="18" fill="#f9fff9"/>
+  <g transform="translate(26,26)">
+    <rect x="18" y="18" width="124" height="124" rx="16" fill="url(#lg6)" stroke="#2f8b1f" stroke-width="2"/>
+    <g transform="translate(40,40)">
+      <path d="M8 36 C28 10 76 10 96 36 C76 22 28 22 8 36 Z" fill="#6fcf3e"/>
+      <circle cx="56" cy="26" r="7" fill="#fff" opacity="0.75" />
+    </g>
+  </g>
+  <text x="100" y="176" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#174e11" text-anchor="middle">GreenLeaf</text>
+</svg>

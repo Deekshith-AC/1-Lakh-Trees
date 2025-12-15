@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="lg9" x1="0" x2="1">
+      <stop offset="0%" stop-color="#eaffd8" />
+      <stop offset="100%" stop-color="#3fb23a" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="18" fill="#fbfff9"/>
+  <g transform="translate(28,26)">
+    <rect x="8" y="32" width="30" height="92" rx="8" fill="#8fe07a" />
+    <rect x="56" y="22" width="44" height="102" rx="8" fill="#61d24a" />
+    <rect x="112" y="44" width="30" height="72" rx="8" fill="#9fe98a" />
+    <circle cx="54" cy="36" r="6" fill="#fff" opacity="0.75" />
+  </g>
+  <text x="100" y="176" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#174e11" text-anchor="middle">Forest Co.</text>
+</svg>

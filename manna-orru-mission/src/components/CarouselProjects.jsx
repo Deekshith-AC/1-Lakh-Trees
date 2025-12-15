@@ -41,17 +41,6 @@ export default function CarouselProjects(){
                 src={slides[index].img}
                 alt={slides[index].title}
                 className="w-full h-full object-cover"
-                onLoad={(e)=>{
-                  try{
-                    const cur = e.currentTarget.currentSrc || e.currentTarget.src
-                    if(seen.current.has(cur)){
-                      // if we've already shown this image, advance to next slide
-                      setTimeout(()=> setIndex(i=> (i+1) % slides.length), 50)
-                    } else {
-                      seen.current.add(cur)
-                    }
-                  }catch(_){ }
-                }}
                 onError={(e)=>{
                   const fallbacks = IMAGES.carouselFallbacks || []
                   const el = e.currentTarget

@@ -15,7 +15,7 @@ export default function Services(){
         <h3 className="text-2xl font-bold mb-6">What We Do</h3>
         <div className="grid md:grid-cols-3 gap-6">
           {cards.map((c,i)=>(
-            <motion.div key={i} className="rounded-lg overflow-hidden shadow-lg bg-white" initial={{y:20,opacity:0}} whileInView={{y:0,opacity:1}} transition={{delay:0.2*(i+1)}} viewport={{once:true}}>
+            <motion.div key={c.title} className="rounded-lg overflow-hidden shadow-lg bg-white" initial={{y:20,opacity:0}} whileInView={{y:0,opacity:1}} transition={{delay:0.2*(i+1)}} viewport={{once:true}}>
               <div className="h-48 bg-cover bg-center" style={{backgroundImage:`url(${c.img})`}}></div>
               <div className="p-6">
                 <div className="text-primary font-bold text-lg">{c.letter}</div>

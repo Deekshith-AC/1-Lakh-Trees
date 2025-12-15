@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="lg3" x1="0" x2="1">
+      <stop offset="0%" stop-color="#bff3a4" />
+      <stop offset="100%" stop-color="#42a22a" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="18" fill="#f7fff7"/>
+  <g transform="translate(28,26)">
+    <path d="M25 90 C40 30 120 30 135 90 C120 75 40 75 25 90 Z" fill="url(#lg3)" stroke="#2f8f1f" stroke-width="2"/>
+    <g transform="translate(45,40)">
+      <path d="M10 34 C30 10 70 10 90 34 C70 24 30 24 10 34 Z" fill="#6fb237"/>
+      <circle cx="55" cy="26" r="7" fill="#fff" opacity="0.7" />
+    </g>
+  </g>
+  <text x="100" y="176" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#1d5b13" text-anchor="middle">EcoTrust</text>
+</svg>
