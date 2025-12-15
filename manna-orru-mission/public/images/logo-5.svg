@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="lg5" x1="0" x2="1">
+      <stop offset="0%" stop-color="#dffbcf" />
+      <stop offset="100%" stop-color="#44b83a" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="18" fill="#f9fff9"/>
+  <g transform="translate(20,24)">
+    <path d="M20 110 C50 30 150 30 180 110 C150 96 50 96 20 110 Z" fill="url(#lg5)" stroke="#2f8a1f" stroke-width="2"/>
+    <g transform="translate(54,48)">
+      <path d="M6 28 C22 8 58 8 74 28 C58 18 22 18 6 28 Z" fill="#76d14a"/>
+      <circle cx="48" cy="22" r="6" fill="#fff" opacity="0.75" />
+    </g>
+  </g>
+  <text x="100" y="176" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#1b5a12" text-anchor="middle">LeafAid</text>
+</svg>

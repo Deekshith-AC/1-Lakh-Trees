@@ -1,0 +1,25 @@
+{
+  "name": "manna-orru-mission",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Manna Orru Manna Bhadhyatha - 1 Lakh Trees (React + Tailwind static site)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "framer-motion": "^7.6.7",
+    "gsap": "^3.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "scrollmagic": "^2.0.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.4.5",
+    "vite": "^5.1.2"
+  }
+}

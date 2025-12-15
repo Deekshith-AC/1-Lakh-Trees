@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="lg7" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e9ffd8" />
+      <stop offset="100%" stop-color="#4fb63a" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="18" fill="#f9fff9"/>
+  <g transform="translate(20,22)">
+    <circle cx="52" cy="56" r="36" fill="url(#lg7)" stroke="#2e8b1f" stroke-width="2"/>
+    <circle cx="128" cy="74" r="36" fill="#7bd24a" opacity="0.95" />
+    <g transform="translate(44,44)">
+      <circle cx="16" cy="16" r="6" fill="#fff" opacity="0.75"/>
+    </g>
+  </g>
+  <text x="100" y="176" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#184f12" text-anchor="middle">PlantPals</text>
+</svg>

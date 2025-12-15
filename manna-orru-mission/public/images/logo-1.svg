@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="lg1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#9be88a" />
+      <stop offset="100%" stop-color="#3ea22b" />
+    </linearGradient>
+    <radialGradient id="rg1" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="18" fill="#f6fff6"/>
+  <g transform="translate(30,28)">
+    <path d="M20 90 C40 10 120 10 140 90 C120 70 40 70 20 90 Z" fill="url(#lg1)" stroke="#2f8f1f" stroke-width="2"/>
+    <path d="M60 60 C75 40 105 40 120 60 C105 55 75 55 60 60 Z" fill="#6fc043" opacity="0.9" />
+    <circle cx="100" cy="55" r="8" fill="url(#rg1)" />
+  </g>
+  <text x="100" y="176" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#1f5d15" text-anchor="middle">Green Partner</text>
+</svg>
