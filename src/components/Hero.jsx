@@ -37,16 +37,20 @@ export default function Hero(){
       <div className="relative z-10 max-w-6xl mx-auto h-full flex items-center px-6">
         <div className="hidden md:flex items-center gap-8 w-full">
           <div className="text-white max-w-2xl flex-1">
-            Mana Orru Mana Bhadhyatha
-          </motion.h1>
-          <motion.p className="mt-4 text-lg" initial={{y:40,opacity:0}} animate={{y:0,opacity:1}} transition={{delay:0.6}}>
-            Mana Orru Mana Bhadhyatha
-          </motion.p>
-          <div className="mt-6 flex gap-4">
-            <a className="btn-primary px-6 py-3 rounded-md" href="#about">Become a Volunteer</a>
-            <a className="border border-white px-6 py-3 rounded-md hover:bg-white/10" href="#mission">Plant a Sapling</a>
+            <motion.h1 className="text-4xl md:text-6xl font-bold text-shadow-green" initial={{y:40,opacity:0}} animate={{y:0,opacity:1}} transition={{delay:0.2}}>
+              Mana Orru Mana Bhadhyatha
+            </motion.h1>
+            <motion.h2 className="mt-4 text-2xl md:text-3xl" initial={{y:40,opacity:0}} animate={{y:0,opacity:1}} transition={{delay:0.4}}>
+              100,000 Saplings in 12 Months
+            </motion.h2>
+            <motion.p className="mt-4 text-lg" initial={{y:40,opacity:0}} animate={{y:0,opacity:1}} transition={{delay:0.6}}>
+              Mana Orru Mana Bhadhyatha
+            </motion.p>
+            <div className="mt-6 flex gap-4">
+              <a className="btn-primary px-6 py-3 rounded-md" href="#about">Become a Volunteer</a>
+              <a className="border border-white px-6 py-3 rounded-md hover:bg-white/10" href="#mission">Plant a Sapling</a>
+            </div>
           </div>
-        </div>
         <div className="md:hidden text-white max-w-2xl">
           <motion.h1 className="text-4xl font-bold text-shadow-green" initial={{y:40,opacity:0}} animate={{y:0,opacity:1}} transition={{delay:0.2}}>
             Mana Orru Mana Bhadhyatha
