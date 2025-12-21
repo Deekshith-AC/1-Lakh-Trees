@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import IMAGES from '../assets/images'
 
 export default function CarouselProjects(){
-  const baseTitles = ['విజన్','మిషన్','ఆంధ్ర మ్యాప్','పార్టనర్స్','ఇంపాక్ట్','ఛాలెంజెస్','సక్సెస్','జాయిన్']
+  const baseTitles = ['Vision','Mission','Andhra Map','Partners','Impact','Challenges','Success','Join']
   const slides = IMAGES.carousel.map((img, i) => ({ title: baseTitles[i] || `Slide ${i+1}`, img }))
 
   const [index, setIndex] = useState(0)

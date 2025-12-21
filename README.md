@@ -1,6 +1,6 @@
-# Manna Orru Manna Bhadhyatha — Static Frontend
+# Mana Orru Mana Bhadhyatha — Static Frontend
 
-This repository contains a 100% static React + Tailwind site scaffold for the "Manna Orru Manna Bhadhyatha" 1 Lakh Trees mission. It's built for pixel-perfect UI/UX similar to the requested reference and filled with free images (Unsplash/Pexels-style queries).
+This repository contains a 100% static React + Tailwind site scaffold for the "Mana Orru Mana Bhadhyatha" 1 Lakh Trees mission. It's built for pixel-perfect UI/UX similar to the requested reference and filled with free images (Unsplash/Pexels-style queries).
 
 Features:
 - React 18 + Vite

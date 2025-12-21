@@ -33,7 +33,7 @@ export default function Navbar(){
     <header className="fixed w-full z-50 backdrop-blur bg-black/30 text-white">
       <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
         <div className="flex items-center gap-4">
-          <div className="font-bold text-lg">Manna Orru Manna Bhadhyatha</div>
+          <div className="font-bold text-lg">Mana Orru Mana Bhadhyatha</div>
         </div>
         <nav className="hidden md:flex gap-6 items-center">
           <a className="hover:text-primary" href="#home">Home</a>
